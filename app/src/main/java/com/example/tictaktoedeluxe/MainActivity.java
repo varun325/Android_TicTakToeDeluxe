@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
                 counter.setImageResource(R.drawable.red);
                 activeplayer=0;
             }
-            counter.animate().translationYBy(1500).rotation(720).setDuration(500); //puts the resources at the desired position with a spining and falling animation
+            counter.animate().translationYBy(1500).rotation(360).setDuration(300); //puts the resources at the desired position with a spining and falling animation
 
             for(int[] winningstate : winningstates){ //checks all the possible winning states
 
